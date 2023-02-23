@@ -11,8 +11,8 @@ def add_number(n1, n2):
 def add_txt(t1, t2):
     print(t1+t2)
     
-ans = add_number(10, 15) # 함수 add_number() 사용
-print(ans) # 25 # 함수 add_txt() 사용
+ans = add_number(10, 15)
+print(ans) # 25
 
 text1 = '대한민국~'
 text2 = '만세'
