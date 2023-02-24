@@ -1,8 +1,7 @@
 '''
 Created on 2023. 2. 23.
-지역 변수 전역 변수 이해하기 성티 코드
+지역 변수 전역 변수 이해하기 - 성티 코드 수정
 코드 확인
-일단 수업 내용 그대로 커밋(책 직접 보고, 재커밋할 것)
 @author: youngmin
 '''
 
@@ -12,7 +11,8 @@ param = 1
 strdata = '전역변수'
 
 def func1():
-    print(param, strdata) # UnboundLocalError: local variable 'param' referenced before assignment
+    # global로 전역 변수로 선언하든, 지역 변수로 param으로 선언하든 선언 없이 출력 불가
+    #print(param, strdata) # UnboundLocalError: local variable 'param' referenced before assignment
     global param # SyntaxError: name 'param' is used prior to global declaration
     param = 2 # global
     global strdata
@@ -28,4 +28,4 @@ def func2():
 # 이 모듈을 실행
 if __name__ == '__main__':
     func1()
-    func1()
+    func2()

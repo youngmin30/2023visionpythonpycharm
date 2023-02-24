@@ -1,8 +1,7 @@
 '''
 Created on 2023. 2. 23.
 지역 변수 전역 변수 이해하기 성티 코드
-코드 확인
-일단 수업 내용 그대로 커밋(책 직접 보고, 재커밋할 것)
+041_1_minver_revision
 @author: youngmin
 '''
 
