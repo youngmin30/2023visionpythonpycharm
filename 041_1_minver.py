@@ -23,7 +23,7 @@ def func1():
     # param: 함수 안에서 전역 변수를 전역 변수로 사용하고 싶을 때, global 뒤에 변수로 쓴다.
     
 def func2():
-    param = 2
+    param = 2 # 지역 변수
     strdata = '지역변수'
     print(param, strdata) # param은 2, strdata는 지역변수
     param = 999
