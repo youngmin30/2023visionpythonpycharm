@@ -1,6 +1,6 @@
 '''
 Created on 2023. 2. 24.
-071 filser 많이 사용함
+071_minver filser 많이 사용함
 정수 리스트에서 소수만 걸러내기 filter
 수업에서 교재 코드 다루지 않음 응용 코드 볼 것
 @author: youngmin

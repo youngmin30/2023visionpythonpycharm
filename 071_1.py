@@ -1,6 +1,6 @@
 '''
 Created on 2023. 2. 24.
-071 filser 많이 사용함
+071_1 filser 많이 사용함
 정수 리스트에서 소수만 걸러내기 filter 성티 코드
 @author: youngmin
 '''
